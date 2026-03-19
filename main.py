@@ -187,7 +187,7 @@ def main():
             break
 
         elif key == ord('s') or key == ord('S'):
-            cartoon_path, preview_path = save_result(output_dir, image_path, cartoon, preview_info)
+            cartoon_path, preview_path = save_result(output_dir, image_path, cartoon, combined)
             print("저장 완료:")
             print(" -", cartoon_path)
             print(" -", preview_path)
